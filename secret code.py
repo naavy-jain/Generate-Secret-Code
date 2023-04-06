@@ -3,6 +3,7 @@ import string
 import pwinput
 A = 4
 B = 4
+print("Authentic Work By Navya Jain")
 user_input = pwinput.pwinput(prompt="Enter Your String : ", mask="*")
 length = len(user_input)
 a = int(input("Enter 1 for Coding\n "))
@@ -18,7 +19,7 @@ if (a == 1 and len(user_input) >= 3):
     print("Do You want to decode the following Code ?\n ")
     b = input("Enter 2 for decoding the following code\n")
     if (b == '2'):
-        # Decoee the Encrypted Code
+        # Decode the Encrypted Code
         new_code = secret_code[4:]
         get_code = new_code[:length+1]
         final_code = get_code[:-1]
